@@ -2,8 +2,6 @@
 
 CLI tool to rebuild rust's sqlx's offline generated data into a single file.
 
-But, you can use it as you want.
-
 ## Install
 
 ```bash
