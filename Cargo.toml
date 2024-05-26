@@ -1,9 +1,10 @@
 [package]
 name = "cmp-sqlx-data"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+authors = ["ocxide"]
+description = "CLI tool to rebuild rust's sqlx's offline generated data into a single file"
+repository = "https://github.com/ocxide/sqlx-offline-rebuild"
 
 [dependencies]
 clap = { version= "4.4.12", features = ["derive"] }
